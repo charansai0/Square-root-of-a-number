@@ -15,17 +15,28 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
-```
+#Program to to find the square root for the given number(newton's method) using function.
+
+#Developed by: v.charan sai
+
+#RegisterNumber: 21003158
+
+def fun():
+
+    x=int(input())
+
+    b=x
+
+    for i in range(10):
+
+        x=0.5*(x+b/x)
+
+    print("Square root of the number:",x)
+
+fun()
 
 ## Output:
-![gcd of two number](gcd.png)
-
+![output](https://github.com/charansai0/Square-root-of-a-number/blob/main/Screenshot%20(152).png?raw=true)
 
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
