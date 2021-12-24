@@ -28,8 +28,7 @@ def fun():
    b=x
 
    for i in range(10):
-
-       x=0.5*(x+b/x)
+      x=0.5*(x+b/x)
 
    print("Square root of the number:",x)
 
